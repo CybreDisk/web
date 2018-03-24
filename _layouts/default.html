@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>{{ page.title }}</title>
+	</head>
+	<body>
+		<header>
+			{% include header.html %}
+		</header>
+		<hr/>
+		{{ content }}
+		<footer>
+			<small>
+				<i>
+					{% include footer.html %}
+				</i>
+			</small>
+		</footer>
+	</body>
+</html>

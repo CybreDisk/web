@@ -1,0 +1,9 @@
+exclude:
+  - Makefile
+  - README.md
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: default
